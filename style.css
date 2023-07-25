@@ -1,0 +1,304 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/48/c4/ac/48c4ac7d82a51a93999c90440fe11245.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 15px;
+
+}
+/*header*/
+.anclac{
+    font-family: Playfair Display, serif;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 2%;
+    left: 10%;
+    transform: translate(-10%, -10%);
+}
+.anclaf{
+    font-family: Playfair Display, serif;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-10%, -10%);
+}
+.anclaa{
+    font-family: Playfair Display, serif;
+    font-size: 25px;
+    color: white;
+    text-align: right;
+    position: absolute;
+    top: 2%;
+    left: 90%;
+    transform: translate(-10%, -10%);
+}
+
+/*Titlulos principales*/
+.main-title1{
+    font-family: Playfair Display, serif;
+    font-size: 55px;
+    text-align: center;
+    margin: 0 auto;
+}
+.main-title2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*Imagenes*/
+.imgcomplejidad{
+    width :150px; /*el ancho puede ser por pixeles o porcentajes*/
+    height: 150px;
+    border-radius: 300px;/*para redonder imagenes*/
+    border-width: 1px;
+    border-style: solid;
+    border-color: whitesmoke;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.imgfisica{
+    width: 150px;
+    height: 150px;
+    border-radius: 400px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: whitesmoke;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.imgastronomia{
+    width: 150px; ;
+    height: 150px;
+    border-radius: 200px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: whitesmoke;
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+/*Física*/
+.title-fisica{
+    font-family: Playfair Display, serif;
+    font-size: 40px;
+    text-align: center;
+}
+.title-queeslafisica{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.queeslafisica{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.title-fisicosquememotivan{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.img-cientificos{
+    width: 250px;
+    height: 150px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: whitesmoke;
+    display: block; /* Convierte la imagen en un elemento bloque para ajustar el margen */
+    margin: 0 auto;
+}
+.fisicosquememotivan{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+.f1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+.f2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+.f3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+.title-momentosclavedelafisica{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.momentosclavedelafisica{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+.m1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+.m2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+.m3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+.title-paquesirve{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.paquesirve{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+
+/*Complejidad*/
+.title-complejidad{
+    font-family: Playfair Display, serif;
+    font-size: 40px;
+    text-align: center;
+}
+.title-queeslacomplejidad{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.queeslacomplejidad{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+.title-conquesecome{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.conquesecome{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+.title-serelacionaconmigo{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.serelacionaconmigo{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+
+/*Astronomía*/
+.title-astronomia{
+    font-family: Playfair Display, serif;
+    text-align: center;
+    font-size: 40px;
+}
+.title-queeslaastronomia{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.queeslaastronomia{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+.title-queesloquemasmegustadeella{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.queesloquemasmegustadeella{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+.title-pelisylibros{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+.pelisylibros{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+.columnas {
+    font-family: 'Oswald', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Esto divide el contenedor en dos columnas de igual tamaño */
+    gap: 20px; /* Ajusta el espacio entre columnas */
+    font-size: 30px;
+    text-align: center;
+}
+.columna1 {
+    padding: 20px;
+}
+.columna2 {
+    padding: 20px;
+}
+/*Para saber mas*/
+.title-parasabermas{ 
+    font-family: Playfair Display, serif;
+    text-align: center;
+    font-size: 40px;
+}
+.mary{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.galileo{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+.areas{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+.texto{
+    text-align: center;
+    font-size: 25px;
+    width: 530px;
+    margin: 0 auto;
+    height: 50px;
+}
+/*final*/
+.paginacreada{
+    font-family: 'VT323', monospace;
+    text-align: center;
+    font-size: 40px;
+}
+.img-mia{
+    display: block; /* Convierte la imagen en un elemento bloque para ajustar el margen */
+    margin: 0 auto;
+}
+.correo{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 25px;
+}

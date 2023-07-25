@@ -1,0 +1,163 @@
+<!--Solo con escribir "html:5", o "!!!" el programa rellenara todo el cuerpo principal del código-->
+<!DOCTYPE html>
+<html lang="en">
+<head><!--todo el estilo va aqui-->
+    <meta charset="UTF-8"><!--utf sirve para cargar todos los caracteres de nuestro abecedario-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mil espacial</title> <!--Nombre de la ventana-->
+    <link rel="icon" href="images/vala.png"> <!--icono de la ventana-->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+</head>
+<body> <!--todo lo ve vera el usuario-->
+    <header> <!--ayuda introductoria de navegación-->
+        <!--para poner las anclas usamos "a"-->
+        <!--Indice con anclas--> 
+        <a class="anclac" href="#complejidad">Complejidad</a><!--el gato indica que debe buscar una sección dentro de la misma página, no debe llevar acentos ni mayusculas-->
+        <a class="anclaf" href="#fisica">Física</a>
+        <a class="anclaa" href="#astronomia">Astronomía</a>
+    </header>
+    <main>
+        <!--main = representa el elemento principal-->
+        <h1 class="main-title1">MI PASIÓN POR EL CIELO</h1>
+        <h2 class="main-title2">Y TODO ESO QUE HAY MÁS ARRIBA</h2>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+        <!--Imagen de la web, src = source(es de donde viene la imagen), alt = descripción de la imagen-->
+        <!--el class es para poder modificar la imagen en el css-->
+        <img class="imgcomplejidad"src="https://i.pinimg.com/564x/79/20/dd/7920dd7974fe70d292c514626ce181d9.jpg" alt="Imagen de las carretera de Berlín"><!--ImgCom-->
+        <img class="imgfisica"src="https://i.pinimg.com/originals/16/a9/50/16a9502637321b9a018a7a72163e06d0.jpg" alt="HCL"><!--ImgFis-->
+        <img class="imgastronomia"src="https://i.pinimg.com/originals/2e/7e/8c/2e7e8c609392c4f51e7d913f3a24990c.jpg" alt="Astronauta con la tierra sobre su mano"><!--ImgAst-->
+        <div><!--div = división-->
+            <h3 id="fisica" class="title-fisica">Física</h3><!--el id=identificador, relaciona a la ancla con el titulo, se escribe tal como lo hicimos con el #-->
+            <h4 class="title-queeslafisica">¿Qué es la física?</h4>
+            <p class="queeslafisica"><!--p = parrafo-->
+                La física desde mi punto de vista es una ensalada donde no reconoces de que este hecho el aderezo, pero sabe bien; los cubiertos son libros y aún que te acabes la ensalada te deja con hambre.
+                Para una definición sólida es descrita como el estudio de la materia, la energía, el espacio y el tiempo, nos permite comprender los fenómenos naturales y describe el funcionamiento de todo a nuestro alrededor, desde el movimiento de partículas hasta galaxias enormes.
+                De la física convergen la química y la biología, siendo una de las disciplinas que más contribuye a la ciencia.
+            </p>
+            <h4 class="title-fisicosquememotivan">Físicos que me motivan</h4>
+            <img class="img-cientificos"src="/images/cientificos.jpg">
+            <p class="fisicosquememotivan">
+                Conocida como una ciencia dura, sabemos que las personas que estudian física son chismosas y entrometidas, siempre quieren saber más, más que eso buscan entenderlo, no saben de geografía por que su entorno no les basta.
+                Cada físico es especial, cada uno aporto a su manera y dedico esfuerzo a entender porque seguimos aquí, ¿por qué nosotros?
+                Dentro de mis favoritos destacan:
+            </p>
+            <ol><!--OL =order list,define listas ordenadas(con números), dentro debe tener al menos un li = lista-->
+                <li class="f1">
+                    Galileo Galilei (1564-1642): Pionero en la observación astronómica y el uso del telescopio. Contribuyó al desarrollo de la mecánica y la ciencia experimental.
+                </li>
+                <li class="f2">
+                    James Clerk Maxwell (1839-1907): Unificó las teorías del magnetismo y la electricidad en un conjunto de ecuaciones llamadas las ecuaciones de Maxwell, que describen el electromagnetismo.
+                </li>
+                <li class="f3">
+                    Richard Feynman (1918-1988): Contribuyó al desarrollo de la electrodinámica cuántica y fue uno de los físicos más destacados del siglo XX.</li>
+                <!--un truco para crear una lista es li*n, donde n es el número total de la lista-->
+            </ol>
+            <h4 class="title-momentosclavedelafisica">Momentos clave de la física</h4>
+            <p class="momentosclavedelafisica">
+                La historia de la física está llena de científicos brillantes que han realizado contribuciones significativas a la ciencia y la comprensión que tenemos del universo, 3 de mis mejores hitos son:
+            </p>
+            <ul><!--ul = unorder list, aparecen con guía-->
+                <li class="m1">
+                    Principia Mathematica (1687): Isaac Newton publica su obra maestra "Philosophiæ Naturalis Principia Mathematica" (Principia), en la que presenta sus leyes del movimiento y la ley de la gravitación universal, estableciendo la física clásica y la mecánica newtoniana.
+                </li>
+                <li class="m2">
+                    Descubrimiento de la expansión del universo (1920s): Edwin Hubble observa el corrimiento al rojo en las galaxias, lo que lleva al descubrimiento de que el universo se está expandiendo, lo que respalda la teoría del Big Bang.</li>
+                <li class="m3">
+                    Fisión nuclear y desarrollo de la bomba atómica (1938-1945): El descubrimiento de la fisión nuclear y el desarrollo de la bomba atómica durante la Segunda Guerra Mundial marcan un hito importante en la historia de la física y la energía nuclear.
+                </li>
+            </ul>
+            <h4 class="title-paquesirve">¿Para qué sirve la física?</h4>
+            <p class="paquesirve">
+                La física es una ciencia fundamental, ha sido la base para avances tecnologicos y cientificos en nuestra historia como humanidad, gracias a ella somos capaces de explicar los fenómenos naturales que por siglos fueron llamados mitos y leyendas, ha impulsado el desarrollo de teorías y modelos que nos ayudan a entender como llegamos aquí, ha permitido avances en la medicina y a el abastecimiento de energía, es lo mejor que tenemos, nos ha llevado al espacio y gracias a ella podemos comprender el origen y la evolución de nuestro universo.
+            </p>
+            <h3 id="complejidad"class="title-complejidad"> Complejidad</h3>
+            <h4 class="title-queeslacomplejidad">¿Qué es la complejidad?</h4>
+            <p class="queeslacomplejidad">
+                La complejidad vista desde una perspectiva física se refiere a la presencia y emergencia de patrones, estructuras y comportamientos complicados que surgen de la interacción y organización de sistemas físicos. Estos sistemas pueden ser tan simples como partículas subatómicas o tan vastos como el universo en su totalidad.
+            </p>
+            <h4 class="title-conquesecome">¿Con qué se come?</h4>
+            <p class="conquesecome">
+                A menudo la complejidad se estudia en sistemas que exhiben comportamientos caóticos o no lineales, donde pequeñas variaciones en las condiciones iniciales pueden conducir a resultados drásticamente diferentes con el tiempo. Estos sistemas complejos pueden encontrarse en diversos campos de la física, como la dinámica de fluidos, la teoría del caos, la mecánica estadística y la astrofísica
+            </p>
+            <h4 class="title-serelacionaconmigo">¿La complejidad se relaciona conmigo?</h4>
+            <p class="serelacionaconmigo">
+                En todo momento, la física de sistemas complejos es un área de investigación en constante crecimiento que busca comprender cómo emergen y se comportan las propiedades complejas en sistemas físicos. A través de modelos matemáticos, simulaciones computacionales y experimentos, los físicos exploran y describen la complejidad en diversos sistemas naturales, lo que contribuye a una comprensión más profunda de la naturaleza y el universo.
+            </p>
+            <h3 id="astronomia" class="title-astronomia">Astronomía</h3>
+            <h4 class="title-queeslaastronomia">¿Qué es la astronomía?</h4>
+            <p class="queeslaastronomia">
+                La astronomía es la ciencia que se encarga de estudiar los objetos y fenómenos que se encuentran fuera de la Tierra, en el espacio exterior.
+                La astronomía es una ciencia interdisciplinaria que abarca conocimientos de física, matemáticas, química y otras disciplinas para comprender los procesos y leyes que rigen el comportamiento de los objetos celestes.
+                Es muy importante tomar en ceunta que los astron no rigen tu vida, la astrología a diferencia de la astrología no te miente.
+            </p>
+            <h4 class="title-queesloquemasmegustadeella"> ¿Qué es lo que más me gusta de ella?</h4>
+            <p class="queesloquemasmegustadeella">
+                Gracias a la astronomía se ha llegado a importantes descubrimientos, como la expansión del universo y el Big Bang, la existencia de planetas extrasolares, la naturaleza de los agujeros negros, la composición de las estrellas y galaxias, entre muchos otros. Además, la astronomía es una fuente de inspiración y asombro para la humanidad, ya que nos muestra la vastedad y complejidad del cosmos en el que habitamos.
+            </p>
+            <h4 class="title-pelisylibros">Películas y libros para conocer más acerca de esto</h4>
+            <div class="columnas">
+                <div class="columna1">Películas</div>
+                <div class="columna2">Libros</div>
+                <div>Interestelar de Christopher Nolan</div>
+                <div>El primer día de Marc Levy</div>
+                <div>Oppenheimer de Christopher Nolan</div>
+                <div>La primer noche de Marc Levy</div>
+            </div>
+        </div>
+        <!--FORMULARIOS-->
+        <form>
+            <h3 class="title-parasabermas">Para saber más</h3>
+            <p class="mary">¿Sabías que Marry Currie era física graduada de la Universidad de Londes?</p>
+            <!-- label = etiqueta para identificar cada respuesta -->
+            <label for="falso">
+                <input type="radio" name="falso">Verdadero
+                <!--radio es para 2 respuesta y checkbook para mas respuestas-->
+                <!--atributo name: relaciona que las 2 respuestas pertenen a la misma pregunta -->
+            </label>
+            <label for="Falso">
+                <input type="radio" name="falso">Falso
+            </label>
+            <p class="galileo">¿Cuáles son las 4 lunas de Júpiter descubiertas por Galíleo?</p>
+            <label for="area">
+                <input type="checkbox" name="area">Europa
+            </label>
+            <label for="Ío">
+                <input type="checkbox" name="area">Ío
+            </label>
+            <label for="Cleo">
+                <input type="checkbox" name="area">Cleo
+            </label>
+            <label for="Ganímedes">
+                <input type="checkbox" name="area">Ganímedes
+            </label>
+            <label for="Calisto">
+                <input type="checkbox" name="area">Calisto
+            </label>
+            <label for="Prometeo">
+                <input type="checkbox" name="area">Prometeo
+            </label>
+            <p class="areas">¿Qué más te gustaría conocer sobre estas áreas?</p>
+            <label for="title-parasabermás">
+                <input type="text" class="texto"><!-- input - insertar algun dato-->
+                <button>Enviar</button>
+            </label>
+        </form>
+        <hr> <!--hr = división horizontal-->
+            <h3 class="paginacreada">PÁGINA WEB CREADA Y REALIZADA PARA EL BOOTCAMP DE TECNOLOCHICAS - JULIO 2023</h3>
+            <!--Imagen através de la compu-->
+            <img class="img-mia"src="/images/vala2.jpg">
+            <h3 class="correo">link de mi correo</h3>
+        </main>
+</body>
+</html>
