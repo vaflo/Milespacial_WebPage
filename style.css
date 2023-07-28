@@ -311,6 +311,7 @@ form {
 .tcimg{
     display: block; /* Convierte la imagen en un elemento bloque para ajustar el margen */
     margin: 0 auto;
+    border-radius: 300px;
 }
 .correo{
     font-family: 'Amatic SC', cursive;
