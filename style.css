@@ -61,7 +61,7 @@ body{
     border-style: solid;
     border-color: whitesmoke;
     position: absolute;
-    top: 28%;
+    top: 38%;
     left: 25%;
     transform: translate(-50%, -50%);
 }
@@ -74,7 +74,7 @@ body{
     border-style: solid;
     border-color: whitesmoke;
     position: absolute;
-    top: 31%;
+    top: 41%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -88,7 +88,7 @@ body{
     border-style: solid;
     border-color: whitesmoke;
     position: absolute;
-    top: 28%;
+    top: 38%;
     left: 75%;
     transform: translate(-50%, -50%);
 }
